@@ -3,7 +3,7 @@ sudo apt-get upgrade
 
 # git settings
 git config --global user.name AndraeCarotta
-git config --global user.email "deine.email@example.com"
+git config --global user.email "andrae.carotta@hotmail.com"
 
 # python
 sudo apt upgrade python3
