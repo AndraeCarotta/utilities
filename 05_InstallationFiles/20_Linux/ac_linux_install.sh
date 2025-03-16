@@ -19,7 +19,8 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y code
 
 # git settings
-git config --global user.name Andrae.Carotta
+sudo apt-get install git-credential-manager
+git config --global user.name AndraeCarotta
 git config --global user.email "andrae.carotta@hotmail.com"
 
 # python
