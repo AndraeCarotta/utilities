@@ -4,28 +4,28 @@ sudo apt update && sudo apt upgrade -y
 sudo timedatectl set-timezone Europe/Berlin
 
 # install some basic developer stuff
-sudo apt install -y curl
-sudo apt install -y wget
-sudo apt install -y vim
-sudo apt install -y neovim
-sudo apt install -y tmux
-sudo apt install -y htop
-sudo apt install -y tree
-sudo apt install -y unzip
-sudo apt install -y zip
-sudo apt install -y git
-sudo apt install -y build-essential
-#sudo apt install -y cmake
-sudo apt install -y code
+sudo apt-get install -y curl
+sudo apt-get install -y wget
+sudo apt-get install -y vim
+sudo apt-get install -y neovim
+sudo apt-get install -y tmux
+sudo apt-get install -y htop
+sudo apt-get install -y tree
+sudo apt-get install -y unzip
+sudo apt-get install -y zip
+sudo apt-get install -y git
+sudo apt-get install -y build-essential
+#sudo apt-get install -y cmake
+sudo apt-get install -y code
 
 # git settings
-git config --global user.name AndraeCarotta
+git config --global user.name Andrae.Carotta
 git config --global user.email "andrae.carotta@hotmail.com"
 
 # python
-sudo apt upgrade python3
-sudo apt install python3-pip
-sudo apt install -y python3-venv
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+sudo apt-get install -y python3-venv
 
 # docker and portainer
 curl -fsSL https://get.docker.com -o get-docker.sh

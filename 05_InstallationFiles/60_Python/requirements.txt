@@ -1,5 +1,17 @@
 numpy==1.21.0
-pandas==1.3.0
-matplotlib==3.4.2
-pyside6==6.2.0
+# Bibliothek für numerische Berechnungen in Python.
+
 scipy==1.7.1
+# Baut auf NumPy auf und bietet zusätzliche Funktionen für Optimierung, Integration, Interpolation,
+
+pandas==1.3.0
+# Bibliothek für Datenmanipulation und -analyse in Python.
+
+matplotlib==3.4.2
+# Bibliothek für die Erstellung von statischen, animierten und interaktiven Visualisierungen in Python.
+
+pyside6==6.2.0
+# Python-Bindungen für das Qt-Framework.
+
+Flask==2.0.1
+# Leichtgewichtiges Webframework für Python.
