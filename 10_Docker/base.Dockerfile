@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # Author of the image
-MAINTAINER Andrae Carotta andrae.carotta@hotmail.com
+LABEL maintainer="Andrae Carotta <andrae.carotta@hotmail.com>"
 
 # Update package lists and install useful tools
 RUN apt-get update && \
