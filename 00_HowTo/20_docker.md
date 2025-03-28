@@ -117,7 +117,11 @@ docker rmi <image-name-or-id> # Image löschen
 
 ### Docker-Container interaktiv ausführen
 ```sh
-docker run -it <image-name> /bin/bash # Container mit interaktivem Bash-Zugang starten
+docker run -it <image-name>:<tag> <command> # Container mit interaktivem Bash-Zugang starten
+```
+```sh
+
+docker exec -it <container_id_oder_name> bash # Dies öffnet eine Bash-Shell im laufenden Ubuntu-Containe
 ```
 
 ### Docker-Volume verwalten
@@ -140,7 +144,7 @@ docker logs <container-name-or-id> # Logs eines Containers anzeigen
 In Ordner des Dockerfiles navigieren und folgenden Befehl ausführen:
 
 ```sh
-docker build -t base-image:latest -f base.Dockerfile .
+docker build -t <image-name>:<tag> -f <name>.Dockerfile .
 ```
 
 ### Docker-Image speichern um es zu verteilen und anschließendes Laden
