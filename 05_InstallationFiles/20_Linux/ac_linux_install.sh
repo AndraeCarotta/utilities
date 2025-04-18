@@ -4,6 +4,8 @@ sudo apt update && sudo apt upgrade -y
 sudo timedatectl set-timezone Europe/Berlin
 
 # install some basic developer stuff
+sudo apt-get install openjdk-17-jre
+sudo apt-get install -y flatpak
 sudo apt-get install -y curl
 sudo apt-get install -y wget
 sudo apt-get install -y vim
