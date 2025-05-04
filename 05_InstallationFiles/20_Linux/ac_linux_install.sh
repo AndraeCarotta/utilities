@@ -20,6 +20,12 @@ sudo apt-get install -y build-essential
 #sudo apt-get install -y cmake
 sudo apt-get install -y code
 
+# other sw tools
+sudo apt-get install thunderbird
+flatpak install flathub com.prusa3d.PrusaSlicer
+flatpak install flathub info.portfolio_performance.PortfolioPerformance
+# freecad via download
+
 # git settings
 sudo apt-get install git-credential-manager
 git config --global user.name AndraeCarotta
