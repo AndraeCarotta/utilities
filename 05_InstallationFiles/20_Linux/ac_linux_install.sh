@@ -28,6 +28,7 @@ flatpak install flathub info.portfolio_performance.PortfolioPerformance
 # => put image to /home/USERNAME/tools
 # => put desktop config to /home/USERNAME/.local/share/applications
 # => put icon to /home/USERNAME/.local/share/icons (.png icon)
+# => make all files executable with "chmod 755"
 # update cache: update-desktop-database ~/.local/share/applications
 
 # git settings
