@@ -24,7 +24,11 @@ sudo apt-get install -y code
 sudo apt-get install thunderbird
 flatpak install flathub com.prusa3d.PrusaSlicer
 flatpak install flathub info.portfolio_performance.PortfolioPerformance
-# freecad via download
+# Image Installationen
+# => put image to /home/USERNAME/tools
+# => put desktop config to /home/USERNAME/.local/share/applications
+# => put icon to /home/USERNAME/.local/share/icons (.png icon)
+# update cache: update-desktop-database ~/.local/share/applications
 
 # git settings
 sudo apt-get install git-credential-manager
